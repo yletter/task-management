@@ -37,4 +37,3 @@ htmlcov/
 .idea/
 *.swp
 *.swo
-task-management-ui/node_modules
