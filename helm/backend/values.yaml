@@ -1,0 +1,17 @@
+replicaCount: 1
+
+image:
+  repository: your-aws-account-id.dkr.ecr.your-region.amazonaws.com/task-management-backend
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 5000
+
+env:
+  dbHost: "localhost"
+  dbPort: "3306"
+  dbUser: "root"
+  dbPassword: "admin"
+  dbName: "task_management"

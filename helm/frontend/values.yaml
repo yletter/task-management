@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: your-aws-account-id.dkr.ecr.your-region.amazonaws.com/task-management-ui
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
