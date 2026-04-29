@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY_BACKEND: task-management-backend
-  ECR_REPOSITORY_FRONTEND: task-management-ui
+  ECR_REPOSITORY_FRONTEND: task-management-frontend
   EKS_CLUSTER_NAME: task-management-cluster
 
 jobs:
